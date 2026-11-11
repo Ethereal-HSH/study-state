@@ -1,0 +1,4 @@
+* text=auto
+*.cmd text eol=crlf
+# Migration hashes cover the original SQL bytes, including line endings.
+/drizzle/*.sql -text
